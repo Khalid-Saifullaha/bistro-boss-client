@@ -42,6 +42,13 @@ const Menu = () => {
         title={"Pizza"}
         img={pizzaImage}
       ></MenuCategory>
+
+      <MenuCategory items={soup} title={"Soup"} img={soupImage}></MenuCategory>
+      <MenuCategory
+        items={salad}
+        title={"Salad"}
+        img={saladImage}
+      ></MenuCategory>
     </div>
   );
 };
