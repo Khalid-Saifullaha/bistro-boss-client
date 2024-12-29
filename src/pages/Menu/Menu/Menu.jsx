@@ -2,6 +2,9 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Cover from "../../Shared/Cover/Cover";
 import menuImage from "../../../assets/menu/banner3.jpg";
 import dessertImage from "../../../assets/menu/dessert-bg.jpeg";
+import pizzaImage from "../../../assets/menu/pizza-bg.jpg";
+import saladImage from "../../../assets/menu/salad-bg.jpg";
+import soupImage from "../../../assets/menu/soup-bg.jpg";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import useMenu from "../../../Hooks/useMenu";
 import MenuCategory from "../MenuCategory.jsx/MenuCategory";
@@ -32,6 +35,12 @@ const Menu = () => {
         items={desserts}
         title="Desert"
         img={dessertImage}
+      ></MenuCategory>
+
+      <MenuCategory
+        items={pizza}
+        title={"Pizza"}
+        img={pizzaImage}
       ></MenuCategory>
     </div>
   );
