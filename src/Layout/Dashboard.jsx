@@ -108,7 +108,7 @@ const Dashboard = () => {
                   to="/dashboard/paymentHistory"
                   className="flex items-center gap-2"
                 >
-                  <Fa4></Fa4>Payment History
+                  <FaList></FaList>Payment History
                 </NavLink>
               </li>
             </>
