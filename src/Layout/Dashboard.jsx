@@ -105,10 +105,10 @@ const Dashboard = () => {
               </li>
               <li>
                 <NavLink
-                  to="/dashboard/booking"
+                  to="/dashboard/paymentHistory"
                   className="flex items-center gap-2"
                 >
-                  <Fa4></Fa4>My Booking
+                  <Fa4></Fa4>Payment History
                 </NavLink>
               </li>
             </>
